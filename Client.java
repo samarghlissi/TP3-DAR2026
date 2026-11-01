@@ -4,7 +4,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
-/** Usage : java activite31.Client [adresseIPServeur] [port] */
+
 public class Client {
     public static void main(String[] args) {
         String host = args.length > 0 ? args[0] : "localhost";
